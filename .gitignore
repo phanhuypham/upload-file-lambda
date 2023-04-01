@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!generateSignURL.js
+!index.js
+!package.json
