@@ -1,7 +1,9 @@
 const { generateSignS3URL } = require('./generateSignURL.js');
 
 const handler = async(event) => {
-    const signURL = await generateSignS3URL('phan-bucket', event.queryStringParameters.key)
+    // TODO implement
+    // console.log('query', event.queryStringParameters.key)
+    const signURL = await generateSignS3URL('demouploadphan', event.queryStringParameters.key)
 
     const response = {
                 statusCode: 200,
